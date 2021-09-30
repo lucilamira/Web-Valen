@@ -6,67 +6,99 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #113017;
 }
 
 .container {
-  width: 900px;
+  width: 960px;
   margin: 0 auto;
+  background-color: #A18157;
 }
 
 header {
-margin-top: 60px;
-margin-bottom: 40px;
 display: flex;
-justify-content: space-between;
+justify-content: center;
+align-items: center;
 gap: 60px;
 }
 
-.header-text {
+.header-text, .important-text, .donde-text {
   order: 1;
 }
 
 h1 {
   margin-bottom: 60px;
+  font-size: 90px;
+  font-weight: 800;
+  text-transform: lowercase;
+  letter-spacing: -1;
+}
+.header-text p {
+  font-size: 39px;
 }
 section {
-  margin-bottom: 40px;
   display: flex;
-  justify-content: space-between;
-  gap: 60px;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 30px;
 }
 
-.important-title {
-  margin-bottom: 20px;
+h2 {
+  font-size: 40px;
+  margin-bottom: 100px;
 }
 
-.donde-text {
-  order: 1;
+
+.donde-text p , .cuando-text p, .asistencia, .important-text p {
+  font-size: 25px;
+  margin-bottom: 60px;
+}
+
+.valen {
+  width: 400px;
+  height: 530px;
+}
+
+.mapa {
+  width: 400px;
+  height: 500px;
 }
 
 article {
   margin-bottom: 60px;
+  margin-top: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-
+  gap: 60px 30px;
 }
 
-footer {
-  margin-left: 40px;
+/* footer {
+
+} */
+
+footer p {
+  margin-right: 40px;
+  margin-bottom: 20px;
+  text-align: right;
 }
 
-.aplv {
+/* .aplv {
   margin-bottom: 20px;
 }
 
 .covid {
   margin-bottom: 20px;
-}
+} */
 
 #pautas {
   margin-bottom: 30px;
+}
+
+.pautas-title {
   grid-column: 1 / -1;
 }
+
 
 .subtitle {
   margin-bottom: 20px;
@@ -79,3 +111,23 @@ footer {
 
 /*APLV PAGE STYLES*/
 
+.aplv-title-page {
+  font-size: 60px;
+  text-transform: none;
+  text-align: center;
+}
+
+.informacion-aplv {
+  margin-top: 60px;
+  padding: 30px;
+}
+
+p {
+  line-height: 1.7;
+  margin: 10px;
+}
+
+.h3-aplv {
+  margin-top: 35px;
+  margin-bottom: 20px;
+}

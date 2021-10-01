@@ -66,12 +66,15 @@ h2 {
 }
 
 article {
-  margin-bottom: 60px;
-  margin-top: 40px;
+  margin: 30px 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px 30px;
 }
+
+/* .aplv, .covid {
+
+} */
 
 /* footer {
 
@@ -108,6 +111,9 @@ footer p {
   grid-column: 1 / -1;
 }
 
+/* li {
+  margin-left: 40px;
+} */
 
 /*APLV PAGE STYLES*/
 

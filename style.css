@@ -7,20 +7,25 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #113017;
+  color: #495057;
+  background-color: #FFF;
+  border-bottom: 8px solid #087f5b;
+
 }
 
 .container {
   width: 960px;
   margin: 0 auto;
-  background-color: #A18157;
 }
 
 header {
 display: flex;
 justify-content: center;
 align-items: center;
-gap: 60px;
+gap: 30px;
+padding: 10px;
+background-color: #099268;
+color:#FFF
 }
 
 .header-text, .important-text, .donde-text {
@@ -28,36 +33,63 @@ gap: 60px;
 }
 
 h1 {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   font-size: 90px;
   font-weight: 800;
   text-transform: lowercase;
   letter-spacing: -1;
 }
 .header-text p {
-  font-size: 39px;
+  font-size: 35px;
 }
 section {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  /* align-items: flex-end; */
   gap: 30px;
+  padding: 10px;
 }
 
 h2 {
   font-size: 40px;
   margin-bottom: 100px;
+  padding: 20px;
 }
 
+.btn:link, .btn:visited {
+  background-color: #087f5b;
+  color: #FFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.btn:hover, .btn:active {
+  background-color: #099268;
+}
+
+.btn {
+  font-size: 25px;
+  padding: 16px 32px;
+}
+
+.btn-small {
+  font-size: 25px;
+  padding: 5px 15px;
+}
 
 .donde-text p , .cuando-text p, .asistencia, .important-text p {
   font-size: 25px;
   margin-bottom: 60px;
+  align-self: flex-end;
 }
 
 .valen {
-  width: 400px;
-  height: 530px;
+  /* width: 500px;
+  height: 300px; */
+  width: 50%;
+  align-self: center;
 }
 
 .mapa {
@@ -70,6 +102,18 @@ article {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px 30px;
+}
+
+ul {
+
+}
+
+li {
+  line-height: 1.7;
+}
+
+.aplv p {
+  font-size: 14px;
 }
 
 /* .aplv, .covid {
@@ -100,8 +144,14 @@ footer p {
 
 .pautas-title {
   grid-column: 1 / -1;
+  background-color: #099268;
+  color: #FFF;
+  text-align: center;
 }
 
+#pautas {
+  font-size: 40px;
+}
 
 .subtitle {
   margin-bottom: 20px;
@@ -121,6 +171,9 @@ footer p {
   font-size: 60px;
   text-transform: none;
   text-align: center;
+  background-color: #099268;
+  color: #FFF;
+  padding: 30px;
 }
 
 .informacion-aplv {

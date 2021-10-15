@@ -25,7 +25,10 @@ align-items: center;
 gap: 30px;
 padding: 10px;
 background-color: #099268;
-color:#FFF
+color:#FFF;
+border-radius: 20px;
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
 }
 
 .header-text, .important-text, .donde-text {
@@ -77,12 +80,13 @@ h2 {
 .btn {
   font-size: 25px;
   padding: 16px 32px;
+  border-radius: 20px;
 }
 
-.btn-small {
+/* .btn-small {
   font-size: 25px;
   padding: 5px 15px;
-}
+} */
 
 .donde-text p , .cuando-text p, .important-text p {
   font-size: 25px;
@@ -95,16 +99,19 @@ h2 {
   height: 300px; */
   width: 50%;
   align-self: center;
+  border-radius: 20px;
 }
 
 .valen-grid {
   width: 420px;
   height: 300px;
+  border-radius: 20px;
 }
 
 .mapa {
   width: 400px;
   height: 500px;
+  border-radius: 20px;
 }
 
 article {
@@ -166,6 +173,9 @@ footer p {
   background-color: #099268;
   color: #FFF;
   text-align: center;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 #pautas {

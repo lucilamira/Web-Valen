@@ -10,7 +10,7 @@ body {
   color: #495057;
   background-color: #FFF;
   border-bottom: 8px solid #087f5b;
-  background-image: url(/img/forest.png);
+  background-image: url(img/forest.png);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;

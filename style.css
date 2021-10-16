@@ -10,12 +10,20 @@ body {
   color: #495057;
   background-color: #FFF;
   border-bottom: 8px solid #087f5b;
-
+  background-image: url(/img/forest-310072.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
+
 
 .container {
   width: 960px;
   margin: 0 auto;
+  background-color: rgba(227, 247, 222, 0.904);
+  padding-bottom: 30px;
+  border-radius: 20px;
 }
 
 header {
@@ -131,6 +139,7 @@ li {
   align-items: center;
   gap: 12px;
   margin-bottom: 24px;
+  font-size: 19px;
 }
 
 .aplv p {
@@ -151,9 +160,11 @@ li {
 }
 
 footer p {
-  margin-right: 40px;
+  /* margin-right: 40px; */
   margin-bottom: 20px;
-  text-align: right;
+  text-align: center;
+  background-color: rgba(227, 247, 222, 0.904);
+  border-radius: 20px;
 }
 
 /* .aplv {
@@ -170,7 +181,7 @@ footer p {
 
 .pautas-title {
   grid-column: 1 / -1;
-  background-color: #099268;
+  background-color: #087f5b;
   color: #FFF;
   text-align: center;
   border-radius: 20px;
@@ -207,9 +218,9 @@ footer p {
 }
 
 .covid-icon {
-  width: 30px;
-  height: 30px;
-  stroke: #e67700;
+  width: 35px;
+  height: 35px;
+  stroke: #bb3e04;
   flex-shrink: 0;
 }
 /*APLV PAGE STYLES*/

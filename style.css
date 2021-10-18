@@ -260,9 +260,9 @@ p {
 
 /*MEDIA QUERIES*/
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1170px){
   .container{
-    max-width: 400px;
+    max-width: 600px;
   }
 
   header {
@@ -307,12 +307,18 @@ p {
   }
 
   .valen-grid {
-    width: 350px;
-    height: 300px;
+    /* width: 350px;
+    height: 300px; */
+    justify-self: center;
   }
 
   .btn {
-    margin-left: 60px;
+    margin-left: 120px;
+  }
+
+  .contacto {
+    justify-self: center;
+    margin-left: 0;
   }
 
   .valen {

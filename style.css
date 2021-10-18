@@ -148,7 +148,7 @@ li {
   align-items: center;
   gap: 12px;
   margin-bottom: 24px;
-  font-size: 19px;
+  font-size: 24px;
 }
 
 /* .aplv p {
@@ -314,6 +314,80 @@ p {
 
   .btn {
     margin-left: 120px;
+  }
+
+  .contacto {
+    justify-self: center;
+    margin-left: 0;
+  }
+
+  .valen {
+    width: 100%;
+  }
+
+  .asistencia {
+    align-self: center;
+  }
+
+}
+
+@media only screen and (max-width: 768px){
+  .container{
+    max-width: 400px;
+  }
+
+  header {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .block1 {
+    flex-wrap: wrap;
+  }
+
+  .header-text p {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .donde-text {
+    align-self: center;
+    order: -1;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 130px;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  section {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  article {
+    display: grid;
+    grid-template-columns: 380px;
+    justify-items: start;
+    margin-left: 10px;
+
+  }
+
+  .valen-grid {
+    width: 380px;
+    height: 300px;
+    justify-self: center;
+  }
+
+  .btn {
+    margin-left: 60px;
   }
 
   .contacto {

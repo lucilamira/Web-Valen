@@ -287,17 +287,18 @@ p {
 /* Prev and Next Buttons */
 .cycle-prev, .cycle-next {
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	background-color: rgba(0, 0, 0, .35);
 	color: #FFF;
 	padding: 1px 10px;
 	display: block;
 	cursor: pointer;
-	font-size: 130%;
+	font-size: 500%;
 	z-index: 1000;
 	opacity: 0;
 	transition: opacity .5s;
 }
+
 
 .cycle-next {
 	right: 0;

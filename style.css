@@ -337,7 +337,7 @@ p {
 
 @media only screen and (max-width: 1170px){
   .container{
-    max-width: 864px;
+    max-width: 784px;
   }
 
   header {

@@ -122,6 +122,9 @@ h2 {
   /* width: 95%; */
 }
 
+.valen-cuando {
+  width: 50%;
+}
 
 .valen-grid {
   width: 95%;
@@ -131,8 +134,8 @@ h2 {
 }
 
 .mapa {
-  width: 400px;
-  height: 500px;
+  /* width: 400px;
+  height: 500px; */
   border-radius: 20px;
 }
 
@@ -400,6 +403,10 @@ p {
     align-self: center;
   }
 
+  .mapa {
+    width: 60%;
+  }
+
 }
 
 @media only screen and (max-width: 768px){
@@ -472,6 +479,10 @@ p {
 
   .asistencia {
     align-self: center;
+  }
+
+  .mapa {
+    width: 100%;
   }
 
 }

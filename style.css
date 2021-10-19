@@ -408,6 +408,10 @@ p {
     width: 60%;
   }
 
+  .body {
+    background-attachment: fixed;
+  }
+
 }
 
 @media only screen and (max-width: 768px){
@@ -474,8 +478,8 @@ p {
     margin-left: 0;
   }
 
-  .valen {
-    /* width: 100%; */
+  .body {
+    background-attachment: fixed;
   }
 
   .asistencia {
